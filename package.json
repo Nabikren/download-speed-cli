@@ -1,0 +1,12 @@
+{
+  "name": "download-speed-cli",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ten sequential HTTP downloads and a simple throughput measurement",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node download-speed.mjs",
+    "test": "node --test"
+  }
+}
